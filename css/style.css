@@ -1,0 +1,153 @@
+body {
+    background: #b07cf7;
+    text-decoration: none;
+    width: 100%;
+    height: 100%;
+}
+
+body, form, div, p, a, img, h1, h2, h3, h4, h5, h6, table, table tr, table td {
+    border: none;
+    color: white;
+    font-family: Arial;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+}
+
+input,
+textarea,
+select {
+    outline: none;
+    font-family: Arial;
+    font-size: 12px;
+    box-sizing: border-box;
+}
+
+input::-moz-focus-inner {
+    border: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: underline;
+    outline: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+h1, h2 {
+    font-size: 20px;
+    padding: 0 0 10px 0;
+    color: #545454;
+}
+
+.mainer{
+    padding: 100px 0;
+    min-width: 810px;
+}
+
+
+.mainer .headline{
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    font-size: 90px;
+    text-align: center;
+}
+
+
+.mainer .headline-text{
+    font-family: 'Raleway', sans-serif;
+    font-weight: lighter;
+    font-size: 17px;
+    text-align: center;
+    width: 590px;
+    margin: 26px auto 0 auto;
+    line-height: 25px;
+}
+
+.mainer .wrapper{
+    margin: 0 auto;
+    max-width: 1210px;
+}
+
+.mainer .news-block{
+    height:310px;
+    width:370px;
+    display: inline-block;
+    margin: 43px 15px 0 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    box-shadow:5px 5px 5px rgba(0,0,0,0.5);
+
+}
+
+.mainer .news-block:hover{
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.news-block .date-block{
+    background-color: #494f5a;
+    height: 60px;
+    width: 60px;
+    margin: 30px 0 123px 30px;
+    opacity: 0.7;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.date-block .day{
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    font-size: 32px;
+    text-align: center;
+}
+
+.date-block .month{
+    font-family: 'Raleway', sans-serif;
+    font-weight: bolder;
+    font-size: 21px;
+    text-align: center;
+    display: block;
+    margin: -5px 0 0 0;
+}
+
+
+.text-block{
+    width: 307px;
+}
+
+.title{
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+}
+
+.author{
+    font-size: 13px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: lighter;
+}
+
+.mainer .button{
+    width: 200px;
+    height: 55px;
+    background-color: #f72b3b;
+    display: block;
+    margin: 50px auto 0 auto;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-weight: lighter;
+    font-size: 20px;
+    border: 0;
+    box-shadow: 0 5px 5px rgba(0,0,0,0.5);
+}
+
+.mainer .button:hover{
+    background-color: #d62635;
+    cursor: pointer;
+}
