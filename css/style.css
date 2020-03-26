@@ -77,6 +77,7 @@ h1, h2 {
 .blog-block .wrapper{
     margin: 0 auto;
     width: 1210px;
+    padding: 100px 0;
 }
 
 .blog-block .news-block{
@@ -120,13 +121,13 @@ h1, h2 {
 }
 
 
-.text-block{
+.blog-block .news-block .text-block{
     padding: 15px;
     background: rgb(2,0,36);
 background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(0,0,0,0.7628635346756152) 29%, rgba(0,0,0,0.6085011185682326) 100%, rgba(0,212,255,1) 100%);
 }
 
-.title{
+.blog-block .news-block .title{
     font-size: 20px;
     font-family: 'Raleway', sans-serif;
     font-weight: bold;
