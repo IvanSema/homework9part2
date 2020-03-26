@@ -1,5 +1,4 @@
 body {
-    background: #b07cf7;
     text-decoration: none;
     width: 100%;
     height: 100%;
@@ -45,13 +44,19 @@ h1, h2 {
     color: #545454;
 }
 
-.mainer{
+
+.blog-block-wrapper{
+    min-width: 1200px;
+    background-color: #b07cf7;
+}
+
+.blog-block{
     padding: 100px 0;
     min-width: 810px;
 }
 
 
-.mainer .headline{
+.blog-block .headline{
     font-family: 'Raleway', sans-serif;
     font-weight: bold;
     font-size: 90px;
@@ -59,7 +64,7 @@ h1, h2 {
 }
 
 
-.mainer .headline-text{
+.blog-block .headline-text{
     font-family: 'Raleway', sans-serif;
     font-weight: lighter;
     font-size: 17px;
@@ -69,45 +74,43 @@ h1, h2 {
     line-height: 25px;
 }
 
-.mainer .wrapper{
+.blog-block .wrapper{
     margin: 0 auto;
-    max-width: 1210px;
+    width: 1210px;
 }
 
-.mainer .news-block{
-    height:310px;
+.blog-block .news-block{
     width:370px;
     display: inline-block;
-    margin: 43px 15px 0 15px;
-    padding: 15px;
+    margin: 43px 15px;
     box-sizing: border-box;
     box-shadow:5px 5px 5px rgba(0,0,0,0.5);
-
+    background-position: center;
 }
 
-.mainer .news-block:hover{
+.blog-block .news-block:hover{
     opacity: 0.8;
     cursor: pointer;
 }
 
-.news-block .date-block{
+.blog-block .news-block .date-block{
     background-color: #494f5a;
     height: 60px;
     width: 60px;
-    margin: 30px 0 123px 30px;
+    margin: 30px 0 115px 30px;
     opacity: 0.7;
     border-radius: 4px;
     text-align: center;
 }
 
-.date-block .day{
+.blog-block .date-block .day{
     font-family: 'Raleway', sans-serif;
     font-weight: bold;
     font-size: 32px;
     text-align: center;
 }
 
-.date-block .month{
+.blog-block .date-block .month{
     font-family: 'Raleway', sans-serif;
     font-weight: bolder;
     font-size: 21px;
@@ -118,7 +121,9 @@ h1, h2 {
 
 
 .text-block{
-    width: 307px;
+    padding: 15px;
+    background: rgb(2,0,36);
+background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(0,0,0,0.7628635346756152) 29%, rgba(0,0,0,0.6085011185682326) 100%, rgba(0,212,255,1) 100%);
 }
 
 .title{
@@ -127,13 +132,13 @@ h1, h2 {
     font-weight: bold;
 }
 
-.author{
+.blog-block .news-block .author{
     font-size: 13px;
     font-family: 'Raleway', sans-serif;
     font-weight: lighter;
 }
 
-.mainer .button{
+.blog-block .button{
     width: 200px;
     height: 55px;
     background-color: #f72b3b;
@@ -147,7 +152,7 @@ h1, h2 {
     box-shadow: 0 5px 5px rgba(0,0,0,0.5);
 }
 
-.mainer .button:hover{
+.blog-block .button:hover{
     background-color: #d62635;
     cursor: pointer;
 }
